@@ -6,7 +6,7 @@
 
 Trustworthy AI: detecting AI-generated content and explaining why.
 
-[Website](https://elektro-informationstechnik.oth-regensburg.de/labore/smart-embedded-systems) · [Publications](#publications) · [Featured project](#featured-project) · [People](#people)
+[Website](https://elektro-informationstechnik.oth-regensburg.de/labore/smart-embedded-systems) · [Publications](#publications) · [Featured project](#featured-project) · [Datasets](#datasets) · [People](#people)
 
 </div>
 
@@ -40,10 +40,27 @@ Code, the released checkpoint and a live demo are public; see the [repository](h
 
 ## Publications
 
+**AI-Generated Content Detection: A Cross-Modal Survey of Methods, Challenges, and Future Directions.**
+Mohamed Mady, Yupei Li, Björn W. Schuller, Berrak Sisman, Johannes Reschke.
+*Preprint, Research Square, 2026.*
+[Preprint](https://www.researchsquare.com/article/rs-10864156/v1) · [DOI](https://doi.org/10.21203/rs.3.rs-10864156/v1)
+
 **DeBERTa-ConPara: Attack-Aware and Deployment-Realistic Detection of AI-Generated Text.**
 Mohamed Mady, Yupei Li, Johannes Reschke, Björn W. Schuller.
 *AACL-IJCNLP 2026, main conference.*
 [Paper](https://arxiv.org/abs/2610.00883) · [Code](https://github.com/SES-Lab-OTH/deberta-conpara) · [Model](https://huggingface.co/mohamedmady/deberta-conpara) · [Demo](https://huggingface.co/spaces/mohamedmady/deberta-conpara)
+
+**Feature-Augmented Transformers for Robust AI-Text Detection Across Domains and Generators.**
+Mohamed Mady, Johannes Reschke, Björn W. Schuller.
+*arXiv preprint, 2026.*
+[Paper](https://arxiv.org/abs/2605.03969)
+
+## Datasets
+
+| Dataset | Size | Content |
+|---|---|---|
+| [Academic-Text-arxiv-gpt-gemini](https://huggingface.co/datasets/mohamedmady/Academic-Text-arxiv-gpt-gemini) | 669,008 paragraphs | Human academic paragraphs from arXiv (papers before 2022) and AI-generated counterparts from GPT-3.5-Turbo and Gemini 2.0 Flash |
+| [HC3-Gemini-Flash-Responses](https://huggingface.co/datasets/mohamedmady/HC3-Gemini-Flash-Responses) | 23,463 responses | Gemini 2.0 Flash answers to the HC3 questions, for measuring generator shift against HC3 |
 
 ## People
 
