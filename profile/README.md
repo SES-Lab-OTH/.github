@@ -89,7 +89,7 @@ Can you tell a real face from an AI-generated one? Our gamified study **AIliens*
 
 ## People
 
-- **Prof. Dr. Johannes Reschke**, professor at OTH Regensburg
+- **Prof. Dr.-Ing. Johannes Reschke**, professor of self-learning and adaptive systems
 - **Mohamed Mady**, doctoral researcher (cooperative doctorate with the Technical University of Munich)
 - **Gerald Schickhuber**, lab engineer
 
