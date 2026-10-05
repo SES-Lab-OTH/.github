@@ -6,7 +6,7 @@
 
 Trustworthy AI: detecting AI-generated content and explaining why.
 
-[Website](https://elektro-informationstechnik.oth-regensburg.de/labore/smart-embedded-systems) · [Publications](#publications) · [Featured project](#featured-project) · [Datasets](#datasets) · [People](#people)
+[Website](https://elektro-informationstechnik.oth-regensburg.de/labore/smart-embedded-systems) · [Featured project](#featured-project) · [Publications](#publications) · [Real or Fake?](#real-or-fake-ai-challenge) · [Datasets](#datasets) · [People](#people)
 
 </div>
 
@@ -14,7 +14,7 @@ Trustworthy AI: detecting AI-generated content and explaining why.
 
 ## About
 
-The Smart Embedded Systems Lab (SES Lab) at OTH Regensburg works on AI systems that hold up outside the lab. Our current focus is the detection of AI-generated content in text and images: detectors that generalise across datasets, generators and domains, that survive adversarial manipulation of their input, and whose decisions can be explained to the people who rely on them.
+The Smart Embedded Systems Lab (SES Lab) at OTH Regensburg works on AI systems that hold up outside the lab. Our current focus is the detection of AI-generated content in text and images: detectors that generalise across datasets, generators and domains, that survive adversarial manipulation of their input, and whose decisions can be explained to the people who rely on them. We also study how well people themselves recognise generated faces, and how large language models perform at generating test scenarios for automated driving.
 
 All code, model weights and demos released here are free to use for research. Each repository states its own licence.
 
@@ -40,6 +40,8 @@ Code, the released checkpoint and a live demo are public; see the [repository](h
 
 ## Publications
 
+### 2026
+
 **AI-Generated Content Detection: A Cross-Modal Survey of Methods, Challenges, and Future Directions.**
 Mohamed Mady, Yupei Li, Björn W. Schuller, Berrak Sisman, Johannes Reschke.
 *Preprint, Research Square, 2026.*
@@ -54,6 +56,29 @@ Mohamed Mady, Yupei Li, Johannes Reschke, Björn W. Schuller.
 Mohamed Mady, Johannes Reschke, Björn W. Schuller.
 *arXiv preprint, 2026.*
 [Paper](https://arxiv.org/abs/2605.03969)
+
+### 2025
+
+**David vs. Goliath: A comparative study of different-sized LLMs for code generation in the domain of automotive scenario generation.**
+Philipp Bauerfeind, Amir Salarpour, David Fernandez, Pedram MohajerAnsari, Johannes Reschke, Mert D. Pesé.
+*arXiv preprint, 2025.*
+[Paper](https://arxiv.org/abs/2510.14115)
+
+**Tackling fake images in cybersecurity: Interpretation of a StyleGAN and lifting its black-box.**
+Julia Laubmann, Johannes Reschke.
+*arXiv preprint, 2025.*
+[Paper](https://arxiv.org/abs/2507.13722)
+
+**Deepfake Detection of Face Images based on a Convolutional Neural Network.**
+Lukas Kroiß, Johannes Reschke.
+*arXiv preprint, 2025.*
+[Paper](https://arxiv.org/abs/2503.11389)
+
+## Real or Fake? AI Challenge
+
+Can you tell a real face from an AI-generated one? Our gamified study **AIliens** shows five faces to classify, then a short training on what gives generated faces away, then five more. It measures how well people spot AI-generated faces and whether a few minutes of training helps.
+
+**[Play the game](https://hannesre.github.io/AIliens/)** · works on phone and desktop, and can be installed as an app.
 
 ## Datasets
 
