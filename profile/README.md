@@ -78,7 +78,7 @@ Lukas Kroiß, Johannes Reschke.
 
 Can you tell a real face from an AI-generated one? Our gamified study **AIliens** shows five faces to classify, then a short training on what gives generated faces away, then five more. It measures how well people spot AI-generated faces and whether a few minutes of training helps.
 
-**[Play the game](https://hannesre.github.io/AIliens/)** · works on phone and desktop, and can be installed as an app.
+**[Play the game](https://ses-lab-oth.github.io/AIliens/)** · works on phone and desktop, and can be installed as an app · [Source](https://github.com/SES-Lab-OTH/AIliens)
 
 ## Datasets
 
