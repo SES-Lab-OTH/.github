@@ -26,6 +26,7 @@ All code, model weights and demos released here are free to use for research. Ea
 [![arXiv](https://img.shields.io/badge/arXiv-2610.00883-b31b1b)](https://arxiv.org/abs/2610.00883)
 [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-deberta--conpara-ffcc4d)](https://huggingface.co/SES-Lab-OTH/deberta-conpara)
 [![Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-live-ff9d00)](https://huggingface.co/spaces/mohamedmady/deberta-conpara)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23198565.svg)](https://doi.org/10.5281/zenodo.23198565)
 
 A detector of AI-generated text built for deployment conditions: unknown domains, unknown generators, adversarially perturbed input and no labels for threshold calibration. The central finding is that Unicode normalisation acts in opposite directions depending on where it is applied. Normalising the training corpus deletes the adversarial supervision, while normalising at inference is an effective defence.
 
