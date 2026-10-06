@@ -6,7 +6,7 @@
 
 Trustworthy AI: detecting AI-generated content and explaining why.
 
-[Website](https://elektro-informationstechnik.oth-regensburg.de/labore/smart-embedded-systems) · [Featured project](#featured-project) · [Publications](#publications) · [Real or Fake?](#real-or-fake-ai-challenge) · [Datasets](#datasets) · [People](#people)
+[Website](https://elektro-informationstechnik.oth-regensburg.de/labore/smart-embedded-systems) · [Hugging Face](https://huggingface.co/SES-Lab-OTH) · [Featured project](#featured-project) · [Publications](#publications) · [Real or Fake?](#real-or-fake-ai-challenge) · [Datasets](#datasets) · [People](#people)
 
 </div>
 
@@ -24,7 +24,7 @@ All code, model weights and demos released here are free to use for research. Ea
 
 [![Paper](https://img.shields.io/badge/AACL--IJCNLP-2026-1f6feb)](https://arxiv.org/abs/2610.00883)
 [![arXiv](https://img.shields.io/badge/arXiv-2610.00883-b31b1b)](https://arxiv.org/abs/2610.00883)
-[![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-deberta--conpara-ffcc4d)](https://huggingface.co/mohamedmady/deberta-conpara)
+[![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-deberta--conpara-ffcc4d)](https://huggingface.co/SES-Lab-OTH/deberta-conpara)
 [![Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-live-ff9d00)](https://huggingface.co/spaces/mohamedmady/deberta-conpara)
 
 A detector of AI-generated text built for deployment conditions: unknown domains, unknown generators, adversarially perturbed input and no labels for threshold calibration. The central finding is that Unicode normalisation acts in opposite directions depending on where it is applied. Normalising the training corpus deletes the adversarial supervision, while normalising at inference is an effective defence.
@@ -50,7 +50,7 @@ Mohamed Mady, Yupei Li, Björn W. Schuller, Berrak Sisman, Johannes Reschke.
 **DeBERTa-ConPara: Attack-Aware and Deployment-Realistic Detection of AI-Generated Text.**
 Mohamed Mady, Yupei Li, Johannes Reschke, Björn W. Schuller.
 *AACL-IJCNLP 2026, main conference.*
-[Paper](https://arxiv.org/abs/2610.00883) · [Code](https://github.com/SES-Lab-OTH/deberta-conpara) · [Model](https://huggingface.co/mohamedmady/deberta-conpara) · [Demo](https://huggingface.co/spaces/mohamedmady/deberta-conpara)
+[Paper](https://arxiv.org/abs/2610.00883) · [Code](https://github.com/SES-Lab-OTH/deberta-conpara) · [Model](https://huggingface.co/SES-Lab-OTH/deberta-conpara) · [Demo](https://huggingface.co/spaces/mohamedmady/deberta-conpara)
 
 **Feature-Augmented Transformers for Robust AI-Text Detection Across Domains and Generators.**
 Mohamed Mady, Johannes Reschke, Björn W. Schuller.
@@ -84,8 +84,8 @@ Can you tell a real face from an AI-generated one? Our gamified study **AIliens*
 
 | Dataset | Size | Content |
 |---|---|---|
-| [Academic-Text-arxiv-gpt-gemini](https://huggingface.co/datasets/mohamedmady/Academic-Text-arxiv-gpt-gemini) | 669,008 paragraphs | Human academic paragraphs from arXiv (papers before 2022) and AI-generated counterparts from GPT-3.5-Turbo and Gemini 2.0 Flash |
-| [HC3-Gemini-Flash-Responses](https://huggingface.co/datasets/mohamedmady/HC3-Gemini-Flash-Responses) | 23,463 responses | Gemini 2.0 Flash answers to the HC3 questions, for measuring generator shift against HC3 |
+| [Academic-Text-arxiv-gpt-gemini](https://huggingface.co/datasets/SES-Lab-OTH/Academic-Text-arxiv-gpt-gemini) | 669,008 paragraphs | Human academic paragraphs from arXiv (papers before 2022) and AI-generated counterparts from GPT-3.5-Turbo and Gemini 2.0 Flash |
+| [HC3-Gemini-Flash-Responses](https://huggingface.co/datasets/SES-Lab-OTH/HC3-Gemini-Flash-Responses) | 23,463 responses | Gemini 2.0 Flash answers to the HC3 questions, for measuring generator shift against HC3 |
 
 ## People
 
